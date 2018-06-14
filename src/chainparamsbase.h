@@ -10,8 +10,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between bitcoin-cli and bitcoind)
- * of a given instance of the Bitcoin system.
+ * CBaseChainParams defines the base parameters (shared between livecoin-cli and livecoind)
+ * of a given instance of the Livecoin system.
  */
 class CBaseChainParams
 {

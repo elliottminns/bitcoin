@@ -137,7 +137,7 @@ public:
 };
 
 /**
- * Bitcoin RPC command dispatcher.
+ * Livecoin RPC command dispatcher.
  */
 class CRPCTable
 {
