@@ -11,6 +11,7 @@
 
 #include <stdint.h>
 #include <string.h>
+#include <crypto/neoscrypt.h>
 
 #include <compat/endian.h>
 

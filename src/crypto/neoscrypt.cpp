@@ -44,6 +44,8 @@ typedef unsigned long ulong;
 typedef unsigned int  uint;
 typedef unsigned char uchar;
 
+#define ROTL32(a,b) (((a) << (b)) | ((a) >> (32 - b)))
+#define ROTR32(a,b) (((a) >> (b)) | ((a) << (32 - b)))
 
 #define MIN(a, b) ((a) < (b) ? a : b)
 #define MAX(a, b) ((a) > (b) ? a : b)
