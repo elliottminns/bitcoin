@@ -14,6 +14,8 @@
 
 #include <chainparamsseeds.h>
 
+#include <arith_uint256.h>
+
 static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesisOutputScript, uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
     CMutableTransaction txNew;
@@ -120,10 +122,10 @@ public:
         nDefaultPort = 9191;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1529098663, 3070778, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1529098663, 548586, 0x1e0ffff0, 1, 50 * COIN);
 
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000cc04e69de7bac3ccc4484760ad2df15900083f944c25601a23248a5554d"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000006eaad4ba3205045c2e60dd673acb819fcd4e0d2c66714aa0d79734a9115"));
         assert(genesis.hashMerkleRoot == uint256S("0x0bdabaf695f2464985911560a4e4465a94b4dd94928c178af60370d136e682ee"));
 
         // Note that of those which support the service bits prefix, most only support a subset of
