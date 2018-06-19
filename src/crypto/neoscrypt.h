@@ -1,10 +1,9 @@
 #ifndef NEOSCRYPT_H
 #define NEOSCRYPT_H
-extern "C" {
+
 void neoscrypt(const unsigned char *input, 
                unsigned char *output,
                unsigned int profile);
-}
 
 #define SCRYPT_BLOCK_SIZE 64
 #define SCRYPT_HASH_BLOCK_SIZE 64
