@@ -1,14 +1,14 @@
 [Desktop Entry]
 Version=1.0
-Name=Bitcoin Core
-Comment=Connect to the Bitcoin P2P Network
-Comment[de]=Verbinde mit dem Bitcoin peer-to-peer Netzwerk
-Comment[fr]=Bitcoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Bitcoin, eşten eşe kriptografik sanal para birimi
+Name=Livecoin Core
+Comment=Connect to the Livecoin P2P Network
+Comment[de]=Verbinde mit dem Livecoin peer-to-peer Netzwerk
+Comment[fr]=Livecoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Livecoin, eşten eşe kriptografik sanal para birimi
 Exec=bitcoin-qt %u
 Terminal=false
 Type=Application
 Icon=bitcoin128
 MimeType=x-scheme-handler/bitcoin;
 Categories=Office;Finance;
-StartupWMClass=Bitcoin-qt
+StartupWMClass=Livecoin-qt

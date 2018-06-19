@@ -87,9 +87,9 @@ EXPECTED_HOLDER_NAMES = [
     "Satoshi Nakamoto\n",
     "The Bitcoin Core developers\n",
     "The Bitcoin Core developers \n",
-    "Bitcoin Core Developers\n",
-    "the Bitcoin Core developers\n",
-    "The Bitcoin developers\n",
+    "Livecoin Core Developers\n",
+    "the Livecoin Core developers\n",
+    "The Livecoin developers\n",
     "The LevelDB Authors\. All rights reserved\.\n",
     "BitPay Inc\.\n",
     "BitPay, Inc\.\n",
@@ -582,7 +582,7 @@ def insert_cmd(argv):
 ################################################################################
 
 USAGE = """
-copyright_header.py - utilities for managing copyright headers of 'The Bitcoin
+copyright_header.py - utilities for managing copyright headers of 'The Livecoin
 Core developers' in repository source files.
 
 Usage:

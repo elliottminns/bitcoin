@@ -85,7 +85,7 @@ src/qt/livecoin-qt.includes
 *.qm
 Makefile
 livecoin-qt
-Bitcoin-Qt.app
+Livecoin-Qt.app
 background.tiff*
 
 # Unit-tests

@@ -68,9 +68,9 @@ can then be controlled by group membership.
 ### Mac OS X
 
 Binary:              `/usr/local/bin/bitcoind`  
-Configuration file:  `~/Library/Application Support/Bitcoin/bitcoin.conf`  
-Data directory:      `~/Library/Application Support/Bitcoin`  
-Lock file:           `~/Library/Application Support/Bitcoin/.lock`  
+Configuration file:  `~/Library/Application Support/Livecoin/bitcoin.conf`  
+Data directory:      `~/Library/Application Support/Livecoin`  
+Lock file:           `~/Library/Application Support/Livecoin/.lock`  
 
 Installing Service Configuration
 -----------------------------------

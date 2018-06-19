@@ -3,10 +3,10 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 TESTS += test/test_livecoin
-bin_PROGRAMS += test/test_livecoin
-noinst_PROGRAMS += test/test_livecoin_fuzzy
-TEST_SRCDIR = test
-TEST_BINARY=test/test_livecoin$(EXEEXT)
+#bin_PROGRAMS += test/test_livecoin
+#noinst_PROGRAMS += test/test_livecoin_fuzzy
+#TEST_SRCDIR = test
+#TEST_BINARY=test/test_livecoin$(EXEEXT)
 
 JSON_TEST_FILES = \
   test/data/script_tests.json \
@@ -135,16 +135,16 @@ test_test_livecoin_fuzzy_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 
 nodist_test_test_livecoin_SOURCES = $(GENERATED_TEST_FILES)
 
-$(BITCOIN_TESTS): $(GENERATED_TEST_FILES)
+#$(BITCOIN_TESTS): $(GENERATED_TEST_FILES)
 
 CLEAN_BITCOIN_TEST = test/*.gcda test/*.gcno $(GENERATED_TEST_FILES)
 
 CLEANFILES += $(CLEAN_BITCOIN_TEST)
 
-livecoin_test: $(TEST_BINARY)
+#livecoin_test: $(TEST_BINARY)
 
-livecoin_test_check: $(TEST_BINARY) FORCE
-	$(MAKE) check-TESTS TESTS=$^
+#livecoin_test_check: $(TEST_BINARY) FORCE
+#	$(MAKE) check-TESTS TESTS=$^
 
 livecoin_test_clean : FORCE
 	rm -f $(CLEAN_BITCOIN_TEST) $(test_test_livecoin_OBJECTS) $(TEST_BINARY)
